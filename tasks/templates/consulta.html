@@ -1,0 +1,52 @@
+<div class="quote-section quote-bg">
+   <div class="container">
+      <div class="row">
+         <div class="offset-lg-5 col-lg-7">
+            <div class="quote-form-section">
+               <span class="title">Dejanos tu consulta</span>
+               <h2 class="subtitle">Respondemos a la brevedad</h2>
+       <form action="{% url 'save_formulario' %}" method="post">
+         {% csrf_token %}
+          <div class="row">
+             <div class="col-md-6">
+                <div class="form-element"><input name="nombre" type="text" placeholder="Nombre" required></div>
+             </div>
+             <div class="col-md-6">
+                <div class="form-element">
+                   <div class="select-wrapper">
+                      <select name="categoria" required>
+                         <option value="emprendedores" selected>Futbol</option>
+                         <option value="asistente_virtual">Instituciones</option>
+                         <option value="automatizacion_tareas">Basket</option>
+                         <option value="gestion_informacion">Voley</option>
+                         <option value="desarrollos_personalizados">Otros</option>
+                      </select>
+                   </div>
+                </div>
+             </div>
+             <div class="col-md-6">
+                <div class="form-element"><input name="email" type="email" placeholder="Email" required></div>
+             </div>
+             <div class="col-md-6">
+                <div class="form-element"><input name="telefono" type="text" placeholder="Teléfono" required></div>
+             </div>
+             <div class="col-lg-12">
+                <div class="form-element"><textarea name="texto" cols="73" rows="10" placeholder="Escriba su consulta o sugerencia" required></textarea></div>
+             </div>
+
+             <div class="col-lg-12">
+                <div class="form-element mb-12 text-right">
+                    <button type="submit">
+                        <span>Enviar</span>
+                    </button>
+                </div>         
+             </div>
+          </div>
+       </form>
+      </div>
+   </div>
+</div>
+</div>
+</div>
+
+ 
