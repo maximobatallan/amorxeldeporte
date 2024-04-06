@@ -30,9 +30,14 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://*.up.railway.app', 'https://amorxeldeporte.com']
+CSRF_TRUSTED_ORIGINS = ['https://*.up.railway.app', 'https://amorxeldeporte.com', 'https://54.233.129.127:8000']
 
-CSRF_COOKIE_SECURE = False
+
+
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+SECURE_SSL_REDIRECT = True
+
 
 # Application definition
 
