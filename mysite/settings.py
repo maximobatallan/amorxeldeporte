@@ -30,7 +30,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://*.up.railway.app', 'https://amorxeldeporte.com', 'https://54.233.129.127:8000']
+CSRF_TRUSTED_ORIGINS = [*]
 
 
 
