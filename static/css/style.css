@@ -511,9 +511,8 @@ h2.subtitle::after {
     text-align: center;
 }
 
-.imagen-con-bordes-redondeados {
-    border-radius: 50px;
-}
+
+
 
 .clearfix::after {
     content: "";
@@ -661,7 +660,7 @@ h2.subtitle::after {
 ---------------------------*/
 
 .header-area .info-bar {
-    background-color: #471850;
+    background-color: #183650;
     width: 100%;
     color: #fff;
     padding: 11px 0px 13px;
@@ -795,10 +794,13 @@ h2.subtitle::after {
     vertical-align: middle;
 }
 
+
 .logo-wrapper img {
-    max-width: 230px;
-    max-height: 55px;
+    max-width: 100px;
+    max-height: 100px;
 }
+
+
 
 .support-bar {
     position: relative;
@@ -1389,23 +1391,18 @@ ul.search-cart-area {
 }
 
 
+.breadcrumb-area {
+    position: relative;
+    padding: 12px 0px 290px;
+}
 
 .hero-txt {
     position: relative;
     z-index: 2;
-    background: #000000ba;
+    background: #00000085;
     padding: 4%;
 }
 
-.hero-overlay {
-    position: absolute;
-    background-color: #0b2b32;
-    opacity: 0.2;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
 
 .hero-area .hero-txt > span {
     display: inline-block;
@@ -1417,12 +1414,14 @@ ul.search-cart-area {
 .hero-area h1 {
     font-size: 72px;
     font-weight: 700;
-    margin-bottom: 37px;
-    line-height: 1.1;
+    
+    width: 100%; /* Ocupar todo el ancho disponible */
+    
 }
 
+
 .hero-area a.boxed-btn {
-    font-size: 16px;
+    font-size: 22px;
     padding: 20px 50px;
     border: none;
     cursor: pointer;
@@ -1827,11 +1826,12 @@ ul.search-cart-area {
 ---------------------------*/
 
 .partner-section .border-bottom {
-    border-bottom: 2px solid #dbddde;
+    border-bottom: 6px solid #183650;
+    
 }
 
 .single-partner-item {
-    height: 210px;
+    height: 150px;
     text-align: center;
 }
 
@@ -1839,6 +1839,13 @@ ul.search-cart-area {
     margin: 0 auto;
 }
 
+
+@media (max-width: 720px) {
+    .single-partner-item img {
+        width: 150px;
+        height: 150px;
+    }
+}
 
 /*---------------------------
 ** FAQ Section CSS
@@ -2135,8 +2142,7 @@ ul.search-cart-area {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #000;
-    opacity: .20;
+
 }
 
 .cta-container {
@@ -2362,13 +2368,14 @@ footer .bottom-footer {
 }
 
 .hero-bg-2 {
+    
     background-image: url('../img/Fondo1.avif');
     background-size: cover;
 }
 
 @media (max-width: 767px) {
     .hero-bg-2 {
-        background-image: url('../img/Fondocelular.avif');
+        background-image: url('../img/fondocelular1.png');
         background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir el contenedor */
         background-position: center; /* Centra la imagen de fondo */
      
@@ -2381,6 +2388,12 @@ footer .bottom-footer {
     padding: 219px 0px 617px 0px;
 }
 
+@media (max-width: 767px) {
+.home-2.hero-area {
+    position: relative;
+    padding: 19px 0px 617px 0px;
+}}
+
 .home-2 .request-section {
     position: absolute;
     bottom: 0px;
@@ -2388,6 +2401,9 @@ footer .bottom-footer {
     padding: 120px 0px 98px 0px;
     z-index: 2;
 }
+
+
+
 
 .home-2 .request-section h2.subtitle,
 .home-2 .request-section span.title {
@@ -2417,8 +2433,7 @@ footer .bottom-footer {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #183650;
-    opacity: 0.6;
+
     
 }
 
@@ -2599,7 +2614,7 @@ footer .bottom-footer {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #0b2b32;
+ 
     opacity: .4;
 }
 
@@ -3299,8 +3314,8 @@ footer .bottom-footer {
     margin-bottom: 0px;
 }
 
-.partner-section.border-top {
-    border-top: 2px solid #dbddde;
+.partner-section .border-top {
+    border-top: 6px solid #183650;
 }
 
 
@@ -3309,9 +3324,9 @@ footer .bottom-footer {
 ---------------------------*/
 
 .services-breadcrumb-bg {
-    background-image: url('../img/banner!.PNG');
+    background-image: url('../img/fondocelular1.png');
     padding: 15%;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center center; /* Alinea la imagen en el centro del marco */
     background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
 }

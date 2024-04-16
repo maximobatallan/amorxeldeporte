@@ -79,6 +79,13 @@
     }    
 }
 
+
+@media only screen and (max-width: 780) {.logo-wrapper img {
+    max-width: 55px;
+    max-height: 55px;
+}}
+
+
 @media only screen and (max-width: 991px) {
     .header-area span.working-time {
         display: none;
@@ -95,6 +102,12 @@
     .support-nav-area {
         position: relative;
     }
+
+    .breadcrumb-area {
+        position: relative;
+        padding: 12px 0px 290px;
+    }
+
     #mobileMenu {
         display: inline-block;
         float: right;
@@ -397,12 +410,9 @@
         height: 450px;
         margin-top: 40px;
     }
-    .home-2.hero-area {
-        position: relative;
-        padding: 153px 0px 447 0px;
-    }
+
     .home-2.hero-area.home-5 .single-hero-item {
-        padding: 153px 0px 447px 0px;
+        padding: 13px 0px 447px 0px;
     }
     .home-2.service-section {
         padding: 111px 0px 76px;
@@ -467,9 +477,7 @@
     .mobile.search-cart-area {
         display: inline-block;
     }
-    .home-2 .request-section {
-        padding: 110px 0px 120px 0px;
-    }
+  
     .home-3 nav.main-menu {
         display: none;
     }
@@ -656,7 +664,7 @@
     }
     .home-2.hero-area {
         position: relative;
-        padding: 153px 0px 447 0px;
+      
     }
     .home-2.hero-area.home-5 .single-hero-item {
         padding: 153px 0px 447 0px;
@@ -712,6 +720,8 @@
 @media only screen and (max-width: 575px) {
     .hero-area a.boxed-btn {
         padding: 16px 40px;
+        width: 100%; /* Hacer que el botón ocupe todo el ancho */
+        box-sizing: border-box; /* Incluir el padding en el ancho total del botón */
     }
     .hero-area h1 {
         font-size: 60px;
@@ -736,7 +746,7 @@
     }
     .home-2.hero-area {
         position: relative;
-        padding: 142px 0px 447px 0px;
+   
     }
     .home-2.hero-area.home-5 .single-hero-item {
         padding: 142px 0px 447px 0px;
@@ -799,7 +809,7 @@
     }
     .breadcrumb-area {
         position: relative;
-        padding: 132px 0px 127px;
+        padding: 12px 0px 290px;
     }
     .service-details-desc > h2.title {
         font-size: 30px;
@@ -813,7 +823,7 @@
     }
     .home-2.hero-area {
         position: relative;
-        padding: 122px 0px 447px 0px;
+
     }
     .home-2.hero-area.home-5 .single-hero-item {
         padding: 122px 0px 447px 0px;
@@ -895,7 +905,7 @@
         padding: 12px 0px;
     }
     .home-2.hero-area {
-        padding: 122px 0px 477px 0px;
+
     }
     .home-2.hero-area.home-5 .single-hero-item {
         padding: 122px 0px 447px 0px;
@@ -950,7 +960,7 @@
     }
     .breadcrumb-area {
         position: relative;
-        padding: 122px 0px 117px;
+        padding: 12px 0px 280px;
     }
     .breadcrumb-area h1 {
         font-size: 40px;
@@ -996,9 +1006,7 @@
         height: 370px;
         margin-top: 40px;
     }
-    .home-2.hero-area {
-        padding: 102px 0px 477px 0px;
-    }
+
     .home-2.hero-area.home-5 .single-hero-item {
         padding: 102px 0px 447px 0px;
     }
@@ -1069,9 +1077,7 @@
     .blog-details-quote {
         padding: 32px 29px;
     }
-    .home-2.hero-area {
-        padding: 102px 0px 447px 0px;
-    }
+
     .home-2.hero-area.home-5 .single-hero-item {
         padding: 102px 0px 447px 0px;
     }
@@ -1160,9 +1166,7 @@
     .hero-area h1 {
         font-size: 42px;
     }
-    .home-2.hero-area {
-        padding: 102px 0px 447px 0px;
-    }
+
     .home-2.hero-area.home-5 .single-hero-item {
         padding: 102px 0px 447px 0px;
     }
