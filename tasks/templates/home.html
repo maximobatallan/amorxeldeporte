@@ -33,91 +33,29 @@
 
 
 <!--  breadcrumb start  -->
-<div class="hero-area hero-bg-2 home-2">
+<div class="breadcrumb-area services-breadcrumb-bg">
    <div class="container">
       <div class="row">
          <div class="col-xl-6 col-lg-8">
             <div class="hero-txt">
-               <span class="wow fadeInDown" data-wow-duration="1.5s">Amor x el Deporte</span>
-               <h1 class="wow fadeInUp" data-wow-duration="1.5s">Diseña tu CAMISETA</h1>
-               <a class="wow fadeInUp boxed-btn" data-wow-duration="1.5s" id="enlaceObjetivo"><span>CONOCE MÁS</span></a>
+               <span class="wow fadeInDown" data-wow-duration="1.5s">Equipos y Conjuntos deportivos</span>
+               <h1 class="wow fadeInUp" data-wow-duration="1.5s">Personalizá tu camiseta</h1>
+               <div style="text-align: center;">
+                  
+          
+               <a class="wow fadeInUp boxed-btn" data-wow-duration="1.5s" id="enlaceObjetivo"><span>Pedi tu Presupuesto</span></a>
+               </div>   
             </div>
          </div>
       </div>
    </div>
 
-
-   
-   <div class="request-section">
-      <div class="container">
-
-
-         {% include "banner.html" %}
-
-
-         <!-- Agrega el modal -->
-         <!-- Modal -->
-         <div class="modal fade bd-example-modal-lg" id="miModal" tabindex="-1" role="dialog"
-            aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-
-               <div class="modal-content" style="background-color: #4b4b4b;">
-                  <div class="modal-header">
-                     <h5 id="exampleModalLongTitle">¡Bienvenidos al mundo digital!</h5>
-                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                     </button>
-                  </div>
-                  <div class="modal-body">
-                     <div class="container">
-
-                        <p>¿Te gustaría tener un ecommerce como el que estás navegando en este momento?</p>
-                        <h3>Imagina esto:</h3>
-
-                        <p style="text-align: justify;">Una plataforma personalizada que exhibe tus productos al mundo
-                           entero las 24 horas del día.
-                           <br>Podemos ayudarte a construir un ecommerce que se adapte a tus necesidades.
-                           <br> En esta pagina de demostración encontraras:
-                        </p><br>
-
-                        <ul>
-                           <li>Galería de productos atractiva</li><br>
-                           <li>Detalle de productos</li><br>
-                           <li>Carrito de compras</li><br>
-                           <li>Cotización y gestión de Envíos</li><br>
-                           <li>Pasarela de pagos Segura</li><br>
-                           <li>Formulario de Contacto / WhatsApp</li>
-                        </ul>
-
-                        <p>Interactue libremente por este hermoso simulardor de un E-commerce</p>
-                        <p style="text-align: justify;">
-                           Además, no te dejaremos solo después de lanzar tu ecommerce.
-                           Te proporcionaremos el conocimiento y las estrategias necesarias para promocionar tu
-                           negocio en redes sociales y atraer a clientes potenciales. Desde campañas publicitarias
-                           hasta estrategias de contenido, te guiaremos en cada paso del camino para que puedas alcanzar
-                           el éxito en línea.
-                        </p>
-
-                     </div>
-                  </div>
-                  <div class="modal-footer">
-                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                     <button type="button" class="btn btn-success"
-                        onclick="window.open('https://wa.me/5491136595835?text=¡Hola, me darias mas informacion acerca del E-commerce!', '_blank')">Contactanos</button>
-
-
-
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="request-section-overlay"></div>
+     
    </div>
    <div class="hero-overlay"></div>
 </div>
 <!--  breadcrumb end  -->
-
+{% include "banner.html" %}
 {% include "quienessomos.html" %}
 
 {% include "consulta.html" %}
