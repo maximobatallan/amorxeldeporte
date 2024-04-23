@@ -143,7 +143,7 @@
         left: 0px;
         top: 84px;
         width: 100%;
-        background-color: #183650;
+        background-color: #12372A;
         z-index: 10;
     }
     .slicknav_nav a {
@@ -220,7 +220,7 @@
         padding: 30px 0px;
     }
     .navbar-area nav ul li.dropdown ul li {
-        background-color: #3675ad;
+        background-color: #12372A;
         text-align: left;
     }
     .navbar-area nav ul li.dropdown ul li a {
@@ -228,7 +228,7 @@
         transition: none;
     }
     .navbar-area .slicknav_nav a:hover {
-        background-color: #3675ad;
+        background-color: #12372A;
         border-radius: 0px;
     }
     .navbar-area nav ul li.dropdown ul li a:hover {
@@ -292,7 +292,7 @@
         border-bottom: 2px solid #f1f1f1;
     }
     ul.search-cart-area i {
-        color: #183650;
+        color: #12372A;
     }
     .hero-area {
         padding: 152px 0px 160px 0px;
@@ -335,11 +335,27 @@
     .testimonial-container {
         border: none;
     }
-    .faqs {
-        padding-top: 111px;
+    .quote-bg {
+        background-image: url('../img/formulario.avif');
+     
+        background-size: 100% 100%;
+        background-position: center center; /* Alinea la imagen en el centro del marco */
+        background-repeat: no-repeat;
     }
+
+
+    .services-breadcrumb-bg {
+        background-image: url('../img/fondocelular2.avif');
+        padding: 15%;
+        background-size: 100% 100%;
+        background-position: center center; /* Alinea la imagen en el centro del marco */
+        background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    }
+
+
+   
     .faq-section {
-        padding: 120px 0px 100px;
+        padding: 0px 0px 100px;
     }
     .about-section .comment-content {
         padding: 111px 0px 115px;
@@ -767,7 +783,7 @@
         color: #58bed3;
     }
     .service-section.home-3 .single-service:hover h4 {
-        color: #183650;
+        color: #12372A;
     }
     .service-section.home-3 .single-service:hover p {
         color: #4e5861;
