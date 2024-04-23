@@ -398,3 +398,137 @@ def save_formulario(request):
     
     
     return render(request, 'home.html')
+
+
+def banner1 (request):
+
+    productos = Producto.objects.filter(important=True)
+    cat = Categoria.objects.all()
+
+    # Creamos un diccionario para agrupar los productos por categoría
+    categorias_productos = {}
+    
+    for producto in productos:
+        id = producto.id
+        categoria = producto.cat
+     
+
+        if categoria in categorias_productos:
+            categorias_productos[categoria].append(id)
+        else:
+            categorias_productos[categoria] = [id]
+    
+  
+   
+    return render(request, "camisetamasculino.html", {'categorias_productos': categorias_productos, 'productos': productos, 'cat': cat} )
+
+def banner2 (request):
+
+    productos = Producto.objects.filter(important=True)
+    cat = Categoria.objects.all()
+
+    # Creamos un diccionario para agrupar los productos por categoría
+    categorias_productos = {}
+    
+    for producto in productos:
+        id = producto.id
+        categoria = producto.cat
+     
+
+        if categoria in categorias_productos:
+            categorias_productos[categoria].append(id)
+        else:
+            categorias_productos[categoria] = [id]
+    
+  
+   
+    return render(request, "camisetafemenina.html", {'categorias_productos': categorias_productos, 'productos': productos, 'cat': cat} )
+
+def banner3 (request):
+
+    productos = Producto.objects.filter(important=True)
+    cat = Categoria.objects.all()
+
+    # Creamos un diccionario para agrupar los productos por categoría
+    categorias_productos = {}
+    
+    for producto in productos:
+        id = producto.id
+        categoria = producto.cat
+     
+
+        if categoria in categorias_productos:
+            categorias_productos[categoria].append(id)
+        else:
+            categorias_productos[categoria] = [id]
+    
+  
+   
+    return render(request, "conjuntodeportivo.html", {'categorias_productos': categorias_productos, 'productos': productos, 'cat': cat} )
+
+def banner4 (request):
+
+    productos = Producto.objects.filter(important=True)
+    cat = Categoria.objects.all()
+
+    # Creamos un diccionario para agrupar los productos por categoría
+    categorias_productos = {}
+    
+    for producto in productos:
+        id = producto.id
+        categoria = producto.cat
+     
+
+        if categoria in categorias_productos:
+            categorias_productos[categoria].append(id)
+        else:
+            categorias_productos[categoria] = [id]
+    
+  
+   
+    return render(request, "otrosdeportes.html", {'categorias_productos': categorias_productos, 'productos': productos, 'cat': cat} )
+
+def banner5 (request):
+
+    productos = Producto.objects.filter(important=True)
+    cat = Categoria.objects.all()
+
+    # Creamos un diccionario para agrupar los productos por categoría
+    categorias_productos = {}
+    
+    for producto in productos:
+        id = producto.id
+        categoria = producto.cat
+     
+
+        if categoria in categorias_productos:
+            categorias_productos[categoria].append(id)
+        else:
+            categorias_productos[categoria] = [id]
+    
+  
+   
+    return render(request, "accesorios.html", {'categorias_productos': categorias_productos, 'productos': productos, 'cat': cat} )
+
+def banner6 (request):
+
+    productos = Producto.objects.filter(important=True)
+    cat = Categoria.objects.all()
+
+    # Creamos un diccionario para agrupar los productos por categoría
+    categorias_productos = {}
+    
+    for producto in productos:
+        id = producto.id
+        categoria = producto.cat
+     
+
+        if categoria in categorias_productos:
+            categorias_productos[categoria].append(id)
+        else:
+            categorias_productos[categoria] = [id]
+    
+  
+   
+    return render(request, "instituciones.html", {'categorias_productos': categorias_productos, 'productos': productos, 'cat': cat} )
+
