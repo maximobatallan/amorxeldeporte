@@ -47,6 +47,14 @@ urlpatterns = [
     path('datosbanco/', views.datosbanco, name='datosbanco'),
     path('catproducto/<str:catproducto>/', views.catproducto, name='catproducto'),
     path('save-formulario/', views.save_formulario, name='save_formulario'),
+    path('camisetamasculino/', views.banner1, name='camisetamasculino'),
+    path('camisetafemenina/', views.banner2, name='camisetafemenina'),
+    path('conjuntodeportivo/', views.banner3, name='conjuntodeportivo'),
+    path('otrosdeportes/', views.banner4, name='otrosdeportes'),
+    path('accesorios/', views.banner5, name='accesorios'),
+    path('instituciones/', views.banner6, name='instituciones'),
+    
+ 
     ]
 
 if settings.DEBUG:
