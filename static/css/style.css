@@ -1521,7 +1521,7 @@ ul.search-cart-area {
 }
 
 .service-section h2.subtitle {
-    margin-bottom: 93px;
+    margin-bottom: 145px;
 }
 
 .service-section .single-service {
@@ -1727,7 +1727,7 @@ ul.search-cart-area {
 ---------------------------*/
 
 .testimonial-section {
-    margin-top: -273px;
+    margin-top: 5px;
     position: relative;
     z-index: 1;
 }
@@ -1753,7 +1753,7 @@ ul.search-cart-area {
     left: 0px;
     width: 100%;
     height: 100%;
-    background-image: url('../img/temonial-1.jpg');
+    background-image: url('../img/reseñas.avif');
     background-size: cover;
     z-index: -3;
 }
@@ -2128,7 +2128,7 @@ ul.search-cart-area {
 
 .cta-section {
     padding: 70px 0px;
-    color: #fff;
+    color: #D36135;
     position: relative;
 }
 
@@ -2173,7 +2173,7 @@ ul.search-cart-area {
 
 footer {
     background-color: #D36135;
-    color: #b7cee1;
+    color: #fff;
 }
 
 footer .logo-wrapper {
@@ -2188,7 +2188,7 @@ footer .logo-wrapper img {
 
 footer .top-footer {
     padding: 90px 0px 0px;
-    border-bottom: 2px solid #2e567a;
+    border-bottom: 2px solid #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -2218,7 +2218,7 @@ footer ul.userful-links li {
 
 footer ul.userful-links li a {
     text-transform: uppercase;
-    color: #b7cee1;
+    color: #fff;
     font-size: 14px;
     display: inline-block;
     position: relative;
@@ -2523,7 +2523,7 @@ footer .bottom-footer {
 
 .home-2.testimonial-section {
     margin-top: auto;
-    padding: 120px 0px;
+    padding: 5px 0px;
     color: #fff;
     position: relative;
 }
