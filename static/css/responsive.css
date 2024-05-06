@@ -345,7 +345,7 @@
 
 
     .services-breadcrumb-bg {
-        background-image: url('../img/Portada.png');
+        background-image: url('../img/fondo.avif');
         padding: 15%;
         background-position: center center; /* Alinea la imagen en el centro del marco */
         background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */

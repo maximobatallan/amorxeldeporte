@@ -801,13 +801,12 @@ h2.subtitle::after {
 }
 
 
-
 .support-bar {
     position: relative;
     background-color: #D36135;
     color: #fff;
     padding: 30px 0px;
-    border-bottom: 2px solid #274a69;
+    border-bottom: 2px solid #fff;
 }
 
 .support-bar::before {
@@ -815,7 +814,7 @@ h2.subtitle::after {
     position: absolute;
     left: -47px;
     background-color: #D36135;
-    border-bottom: 2px solid #274a69;
+    border-bottom: 2px solid #fff;
     width: 100px;
     height: 102%;
     top: 0px;
@@ -832,7 +831,7 @@ h2.subtitle::after {
     width: 50%;
     height: 102%;
     background-color: #D36135;
-    border-bottom: 2px solid #274a69;
+    border-bottom: 2px solid #ffffff;
 }
 
 .support-bar .support-info {
@@ -881,8 +880,8 @@ h2.subtitle::after {
 .navbar-area {
     position: relative;
     background-color: #D36135;
-    margin-left: 53px;
-    padding: 20px 0px;
+    margin-left: 10px;
+    padding: 9px 0px;
 }
 
 .navbar-area::before {
@@ -917,7 +916,7 @@ h2.subtitle::after {
 
 .navbar-area nav ul li {
     display: inline-block;
-    margin: 0px 18px;
+    margin: 0px 9px;
     position: relative;
 }
 
@@ -3330,7 +3329,7 @@ footer .bottom-footer {
 ---------------------------*/
 
 .services-breadcrumb-bg {
-    background-image: url('../img/fondoweb.png');
+    background-image: url('../img/fondoweb.avif');
     background-size: 100% 100%;
     background-position: center center; /* Alinea la imagen en el centro del marco */
     background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
