@@ -345,9 +345,8 @@
 
 
     .services-breadcrumb-bg {
-        background-image: url('../img/fondocelular2.avif');
+        background-image: url('../img/Portada.png');
         padding: 15%;
-        background-size: 100% 100%;
         background-position: center center; /* Alinea la imagen en el centro del marco */
         background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
     }

@@ -151,7 +151,7 @@ button.boxed-btn {
     padding: 15px 35px;
     text-align: center;
     border-radius: 7px;
-    background-color: #12372A;
+    background-color: #D36135;
     border: none;
     text-decoration: none;
     -webkit-transition: .5s;
@@ -171,7 +171,7 @@ button.boxed-btn {
 
 a.boxed-btn:hover,
 button.boxed-btn:hover {
-    color: #12372A;
+    color: #D36135;
 }
 
 /* before */
@@ -186,7 +186,7 @@ button.boxed-btn span {
 /* hover */
 a.boxed-btn:hover span,
 button.boxed-btn:hover span {
-    color: #12372A;
+    color: #D36135;
     
     
 }
@@ -242,7 +242,7 @@ button.boxed-btn:hover::after {
 a.readmore {
     display: inline-block;
     position: relative;
-    color: #12372A;
+    color: #D36135;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 14px;
@@ -278,7 +278,7 @@ span.title {
 }
 
 h2.subtitle {
-    color: #12372A;
+    color: #D36135;
     font-size: 36px;
     font-weight: 700;
     position: relative;
@@ -291,7 +291,7 @@ h2.subtitle::after {
     position: absolute;
     width: 100px;
     height: 3px;
-    background-color: #12372A;
+    background-color: #D36135;
     left: 0px;
     bottom: -34px;
 }
@@ -314,7 +314,7 @@ h2.subtitle::after {
     width: 100%;
     height: 50px;
     line-height: 50px;
-    border: 1px solid #12372A;
+    border: 1px solid #D36135;
     border-radius: 3px;
     outline: 0;
     padding-left: 20px;
@@ -335,13 +335,13 @@ h2.subtitle::after {
 .form-element input[type="submit"] {
     border: none;
     position: relative;
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff;
     padding: 12px 24px;
     text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
-    border: 1px solid #12372A;
+    border: 1px solid #D36135;
     font-size: 14px;
     -webkit-transition: .5s;
     -o-transition: .5s;
@@ -351,7 +351,7 @@ h2.subtitle::after {
 .form-element button[type="submit"]:hover span {
     position: relative;
     z-index: 1;
-    color: #12372A;
+    color: #D36135;
 }
 
 .form-element button[type="submit"]::before,
@@ -390,7 +390,7 @@ h2.subtitle::after {
 .form-element button[type="submit"]:hover::after,
 .form-element input[type="submit"]:hover::after {
     -webkit-transition-property: none;
-    background-color: #12372A;
+    background-color: #D36135;
     -o-transition-property: none;
     transition-property: none;
     visibility: hidden;
@@ -439,8 +439,8 @@ h2.subtitle::after {
     height: 40px;
     width: 40px;
     line-height: 40px;
-    background-color: #12372A;
-    border: 1px solid #12372A;
+    background-color: #D36135;
+    border: 1px solid #D36135;
     text-align: center;
     border-radius: 3px;
     cursor: pointer;
@@ -453,7 +453,7 @@ h2.subtitle::after {
 
 .back-to-top:hover {
     background-color: #fff;
-    color: #12372A;
+    color: #D36135;
 }
 
 .back-to-top.show {
@@ -553,7 +553,7 @@ h2.subtitle::after {
     left: 50%;
     margin-top: -30px;
     margin-left: -30px;
-    border: 4px solid #12372A;
+    border: 4px solid #D36135;
     -webkit-animation: loader 2s infinite ease;
     animation: loader 2s infinite ease;
 }
@@ -562,7 +562,7 @@ h2.subtitle::after {
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: #12372A;
+    background-color: #D36135;
     -webkit-animation: loader-inner 2s infinite ease-in;
     animation: loader-inner 2s infinite ease-in;
 }
@@ -660,7 +660,7 @@ h2.subtitle::after {
 ---------------------------*/
 
 .header-area .info-bar {
-    background-color: #12372A;
+    background-color: #D36135;
     width: 100%;
     color: #fff;
     padding: 11px 0px 13px;
@@ -723,7 +723,7 @@ h2.subtitle::after {
     list-style-type: none;
     padding-left: 0px;
     width: 120px;
-    background-color: #12372A;
+    background-color: #D36135;
     text-align: center;
     visibility: hidden;
     opacity: 0;
@@ -760,7 +760,7 @@ h2.subtitle::after {
 
 .header-area .language ul.language-dropdown li a:hover {
     background-color: #fff;
-    color: #12372A;
+    color: #D36135;
 }
 
 .language a {
@@ -774,7 +774,7 @@ h2.subtitle::after {
 }
 
 .language a:hover {
-    color: #12372A;
+    color: #D36135;
 }
 
 .logo-wrapper {
@@ -804,7 +804,7 @@ h2.subtitle::after {
 
 .support-bar {
     position: relative;
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff;
     padding: 30px 0px;
     border-bottom: 2px solid #274a69;
@@ -814,7 +814,7 @@ h2.subtitle::after {
     content: "";
     position: absolute;
     left: -47px;
-    background-color: #12372A;
+    background-color: #D36135;
     border-bottom: 2px solid #274a69;
     width: 100px;
     height: 102%;
@@ -831,7 +831,7 @@ h2.subtitle::after {
     top: 0px;
     width: 50%;
     height: 102%;
-    background-color: #12372A;
+    background-color: #D36135;
     border-bottom: 2px solid #274a69;
 }
 
@@ -880,7 +880,7 @@ h2.subtitle::after {
 
 .navbar-area {
     position: relative;
-    background-color: #12372A;
+    background-color: #D36135;
     margin-left: 53px;
     padding: 20px 0px;
 }
@@ -888,7 +888,7 @@ h2.subtitle::after {
 .navbar-area::before {
     content: "";
     position: absolute;
-    background-color: #12372A;
+    background-color: #D36135;
     height: 100%;
     width: 58px;
     left: -33px;
@@ -901,7 +901,7 @@ h2.subtitle::after {
 .navbar-area::after {
     content: "";
     position: absolute;
-    background-color: #12372A;
+    background-color: #D36135;
     height: 100%;
     width: 60%;
     right: -60%;
@@ -926,7 +926,7 @@ h2.subtitle::after {
     position: absolute;
     height: 5px;
     width: 5px;
-    background-color: #12372A;
+    background-color: #D36135;
     border-radius: 50%;
     top: 50%;
     left: -9px;
@@ -936,11 +936,11 @@ h2.subtitle::after {
 }
 
 .navbar-area nav ul li.active a {
-    color: #12372A;
+    color: #D36135;
 }
 
 .navbar-area nav ul li.dropdown.active::after {
-    color: #12372A;
+    color: #D36135;
 }
 
 .navbar-area nav ul li:last-child {
@@ -988,7 +988,7 @@ h2.subtitle::after {
 }
 
 .navbar-area nav ul li.dropdown:hover::after {
-    color: #12372A;
+    color: #D36135;
 }
 
 .navbar-area nav ul li.dropdown ul {
@@ -1019,7 +1019,7 @@ h2.subtitle::after {
 .navbar-area nav ul li.dropdown ul li {
     display: block;
     text-align: center;
-    background-color: #12372A;
+    background-color: #D36135;
     margin: 0px;
     position: relative;
     z-index: -1;
@@ -1027,7 +1027,7 @@ h2.subtitle::after {
 }
 
 .home-2 .navbar-area nav ul li.dropdown ul li {
-    background-color: #12372A;
+    background-color: #D36135;
 }
 
 .navbar-area nav ul li.dropdown ul li:last-child {
@@ -1046,7 +1046,7 @@ h2.subtitle::after {
 }
 
 .navbar-area nav ul li.dropdown ul li a:hover {
-    color: #12372A;
+    color: #D36135;
 }
 
 .navbar-area nav ul li.dropdown ul li a::before {
@@ -1094,7 +1094,7 @@ h2.subtitle::after {
 }
 
 .navbar-area nav ul li.dropdown ul li.active a {
-    color: #12372A;
+    color: #D36135;
 }
 
 .navbar-area nav ul li.dropdown ul li.active::before {
@@ -1135,11 +1135,11 @@ h2.subtitle::after {
 }
 
 .navbar-area nav ul li.dropdown ul li.dropdown-submenus ul li.active a {
-    color: #12372A;
+    color: #D36135;
 }
 
 .navbar-area nav ul li.dropdown ul li.dropdown-submenus ul li:hover a {
-    color: #12372A;
+    color: #D36135;
 }
 
 .navbar-area nav ul li.dropdown ul li.dropdown-submenus a i {
@@ -1188,7 +1188,7 @@ ul.search-cart-area {
     top: -8px;
     right: -13px;
     color: #fff;
-    background-color: #12372A;
+    background-color: #D36135;
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -1204,7 +1204,7 @@ ul.search-cart-area {
 
 .shopping-icon:hover span.count {
     background-color: #fff;
-    color: #12372A;
+    color: #D36135;
 }
 
 .sticky-navbar {
@@ -1298,7 +1298,7 @@ ul.search-cart-area {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #12372A;
+    background-color: #D36135;
     opacity: .9;
     cursor: pointer;
 }
@@ -1495,7 +1495,7 @@ ul.search-cart-area {
 
 .feature-lists .single-feature i {
     font-size: 45px;
-    color: #12372A;
+    color: #D36135;
 }
 
 .single-feature .feature-details {
@@ -1506,7 +1506,7 @@ ul.search-cart-area {
 .single-feature .feature-details h4 {
     font-size: 18px;
     font-weight: 900;
-    color: #12372A;
+    color: #D36135;
     text-transform: uppercase;
     margin-bottom: 8px;
 }
@@ -1559,8 +1559,8 @@ ul.search-cart-area {
     bottom: 100%;
     right: 100%;
     opacity: 0;
-    border-top: 2px solid #12372A;
-    border-right: 2px solid #12372A;
+    border-top: 2px solid #D36135;
+    border-right: 2px solid #D36135;
     z-index: 1;
 }
 
@@ -1581,8 +1581,8 @@ ul.search-cart-area {
     top: 100%;
     left: 100%;
     opacity: 0;
-    border-bottom: 2px solid #12372A;
-    border-left: 2px solid #12372A;
+    border-bottom: 2px solid #D36135;
+    border-left: 2px solid #D36135;
     z-index: 1;
 }
 
@@ -1615,7 +1615,7 @@ ul.search-cart-area {
     width: 40px;
     height: 40px;
     border: 1px solid #bfc2c5;
-    color: #12372A;
+    color: #D36135;
     font-weight: 900;
     font-size: 10px;
     -webkit-transition: .5s;
@@ -1625,9 +1625,9 @@ ul.search-cart-area {
 
 .service-carousel.owl-carousel .owl-nav button.owl-next:hover,
 .service-carousel.owl-carousel .owl-nav button.owl-prev:hover {
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff;
-    border: 1px solid #12372A;
+    border: 1px solid #D36135;
 }
 
 .service-section .single-service img {
@@ -1646,12 +1646,12 @@ ul.search-cart-area {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 24px;
-    color: #12372A;
+    color: #D36135;
     margin-bottom: 15px;
 }
 
 .service-section .single-service .service-txt a.readmore {
-    color: #12372A;
+    color: #D36135;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
@@ -1718,7 +1718,7 @@ ul.search-cart-area {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #12372A;
+    background-color: #D36135;
     opacity: .9;
 }
 
@@ -1781,7 +1781,7 @@ ul.search-cart-area {
 }
 
 .testimonial h5 {
-    color: #12372A;
+    color: #D36135;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1809,7 +1809,7 @@ ul.search-cart-area {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: #12372A;
+    background-color: #D36135;
     line-height: 100px;
     text-align: center;
     font-size: 30px;
@@ -1823,7 +1823,7 @@ ul.search-cart-area {
 ---------------------------*/
 
 .partner-section .border-bottom {
-    border-bottom: 6px solid #12372A;
+    border-bottom: 6px solid #D36135;
     
 }
 
@@ -1886,8 +1886,8 @@ ul.search-cart-area {
     bottom: 100%;
     right: 100%;
     opacity: 0;
-    border-top: 2px solid #12372A;
-    border-right: 2px solid #12372A;
+    border-top: 2px solid #D36135;
+    border-right: 2px solid #D36135;
 }
 
 .targets .box:hover::before {
@@ -1907,8 +1907,8 @@ ul.search-cart-area {
     top: 100%;
     left: 100%;
     opacity: 0;
-    border-bottom: 2px solid #12372A;
-    border-left: 2px solid #12372A;
+    border-bottom: 2px solid #D36135;
+    border-left: 2px solid #D36135;
 }
 
 .targets .box:hover::after {
@@ -1926,7 +1926,7 @@ ul.search-cart-area {
 
 .targets .box .icon-wrapper i {
     font-size: 60px;
-    color: #12372A;
+    color: #D36135;
 }
 
 .targets .box:first-child {
@@ -1934,7 +1934,7 @@ ul.search-cart-area {
 }
 
 .targets .box h4 {
-    color: #12372A;
+    color: #D36135;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 24px;
@@ -1963,7 +1963,7 @@ ul.search-cart-area {
 
 .faq-section .accordion .card .card-header .btn {
     font-weight: 700;
-    color: #12372A;
+    color: #D36135;
     font-weight: 18px;
     border-radius: 3px;
     padding: 12px 30px 16px;
@@ -1975,12 +1975,12 @@ ul.search-cart-area {
 }
 
 .faq-section .accordion .card .card-header .btn:hover {
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff;
 }
 
 .faq-section .accordion .card .card-header .btn[aria-expanded="true"] {
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff
 }
 
@@ -2105,7 +2105,7 @@ ul.search-cart-area {
 }
 
 .single-news .news-txt h3 {
-    color: #12372A;
+    color: #D36135;
     font-size: 22px;
     font-weight: 600;
     margin-top: 9px;
@@ -2115,7 +2115,7 @@ ul.search-cart-area {
 }
 
 .single-news .news-txt h3:hover {
-    color: #12372A;
+    color: #D36135;
 }
 
 .single-news .news-txt a.readmore {
@@ -2173,7 +2173,7 @@ ul.search-cart-area {
 ---------------------------*/
 
 footer {
-    background-color: #12372A;
+    background-color: #D36135;
     color: #b7cee1;
 }
 
@@ -2308,11 +2308,11 @@ footer .bottom-footer {
 }
 
 .home-2 .support-bar .support-info h5 {
-    color: #12372A;
+    color: #D36135;
 }
 
 .home-2 .support-bar .support-info p {
-    color: #12372A;
+    color: #D36135;
 }
 
 #mobileMenuHome2 {
@@ -2448,7 +2448,7 @@ footer .bottom-footer {
 }
 
 .home-2 .comment-content h2.subtitle {
-    color: #12372A;
+    color: #D36135;
 }
 
 .home-2 .comment-content p {
@@ -2456,7 +2456,7 @@ footer .bottom-footer {
 }
 
 .home-2 .ceo-details h5 {
-    color: #12372A;
+    color: #D36135;
 }
 
 .home-2 .ceo-details span {
@@ -2539,7 +2539,7 @@ footer .bottom-footer {
     left: 0px;
     width: 100%;
     height: 100%;
-    background-color: #12372A;
+    background-color: #D36135;
     opacity: .1;
 }
 
@@ -2789,7 +2789,7 @@ footer .bottom-footer {
     left: 0px;
     width: 0;
     height: 0;
-    border-top: 0px solid #12372A;
+    border-top: 0px solid #D36135;
     border-right: 0px solid transparent;
     -webkit-transition: .5s;
     -o-transition: .5s;
@@ -2797,7 +2797,7 @@ footer .bottom-footer {
 }
 
 .service-section.home-3 .single-service:hover::before {
-    border-top: 201px solid #12372A;
+    border-top: 201px solid #D36135;
     border-right: 362px solid transparent;
 }
 
@@ -2809,7 +2809,7 @@ footer .bottom-footer {
     width: 0;
     height: 0;
     z-index: 0;
-    border-bottom: 0px solid #12372A;
+    border-bottom: 0px solid #D36135;
     border-left: 0px solid transparent;
     -webkit-transition: .5s;
     -o-transition: .5s;
@@ -2817,7 +2817,7 @@ footer .bottom-footer {
 }
 
 .service-section.home-3 .single-service:hover::after {
-    border-bottom: 200px solid #12372A;
+    border-bottom: 200px solid #D36135;
     border-left: 360px solid transparent;
 }
 
@@ -2837,7 +2837,7 @@ footer .bottom-footer {
 
 .service-section.home-3 .single-service i {
     font-size: 60px;
-    color: #12372A;
+    color: #D36135;
 }
 
 .about-section {
@@ -2877,7 +2877,7 @@ footer .bottom-footer {
 
 .about-section .about-points {
     padding: 120px 0px 96px;
-    background-color: #12372A;
+    background-color: #D36135;
     position: relative;
 }
 
@@ -2888,7 +2888,7 @@ footer .bottom-footer {
     right: -120%;
     height: 100%;
     width: 120%;
-    background-color: #12372A;
+    background-color: #D36135;
 }
 
 .about-section .about-points h4 {
@@ -2923,7 +2923,7 @@ footer .bottom-footer {
     border: 3px solid #fff;
     margin-right: 20px;
     float: left;
-    background-color: #12372A;
+    background-color: #D36135;
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
     -webkit-transition: border .5s, background-color .5s, color .5s;
@@ -2936,8 +2936,8 @@ footer .bottom-footer {
     -o-transition: .5s;
     transition: .5s;
     background-color: #fff;
-    color: #12372A;
-    border: 3px solid #12372A;
+    color: #D36135;
+    border: 3px solid #D36135;
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
 }
@@ -3002,8 +3002,8 @@ footer .bottom-footer {
     bottom: 100%;
     right: 100%;
     opacity: 0;
-    border-top: 2px solid #12372A;
-    border-right: 2px solid #12372A;
+    border-top: 2px solid #D36135;
+    border-right: 2px solid #D36135;
 }
 
 .home-3 .single-testimonial:hover::before {
@@ -3023,8 +3023,8 @@ footer .bottom-footer {
     top: 100%;
     left: 100%;
     opacity: 0;
-    border-bottom: 2px solid #12372A;
-    border-left: 2px solid #12372A;
+    border-bottom: 2px solid #D36135;
+    border-left: 2px solid #D36135;
 }
 
 .home-3 .single-testimonial:hover::after {
@@ -3042,7 +3042,7 @@ footer .bottom-footer {
 
 .home-3 .single-testimonial p.icon-wrapper i {
     font-size: 20px;
-    color: #12372A;
+    color: #D36135;
 }
 
 .home-3 .single-testimonial p.comment {
@@ -3051,7 +3051,7 @@ footer .bottom-footer {
 
 .home-3 .single-testimonial h5 {
     font-weight: 700;
-    color: #12372A;
+    color: #D36135;
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 0px;
@@ -3174,7 +3174,7 @@ footer .bottom-footer {
 }
 
 .hero-carousel.owl-theme .owl-dots .owl-dot.active span {
-    background-color: #12372A;
+    background-color: #D36135;
 }
 
 
@@ -3284,7 +3284,7 @@ footer .bottom-footer {
 }
 
 .about-section.about .about-txt h2.subtitle {
-    color: #12372A;
+    color: #D36135;
     margin-bottom: 85px;
 }
 
@@ -3298,7 +3298,7 @@ footer .bottom-footer {
 }
 
 .about-section.about .about-txt h5 {
-    color: #12372A;
+    color: #D36135;
 }
 
 .about-section.about .about-txt span {
@@ -3321,7 +3321,7 @@ footer .bottom-footer {
 }
 
 .partner-section .border-top {
-    border-top: 6px solid #12372A;
+    border-top: 6px solid #D36135;
 }
 
 
@@ -3330,7 +3330,7 @@ footer .bottom-footer {
 ---------------------------*/
 
 .services-breadcrumb-bg {
-    background-image: url('../img/fondo.avif');
+    background-image: url('../img/fondoweb.png');
     background-size: 100% 100%;
     background-position: center center; /* Alinea la imagen en el centro del marco */
     background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
@@ -3372,7 +3372,7 @@ footer .bottom-footer {
 .service-details-desc > h2.title {
     font-size: 36px;
     font-weight: 700;
-    color: #12372A;
+    color: #D36135;
     text-transform: uppercase;
     margin: 30px 0px 22px;
 }
@@ -3389,7 +3389,7 @@ footer .bottom-footer {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #12372A;
+    color: #D36135;
     margin-bottom: 24px;
 }
 
@@ -3468,7 +3468,7 @@ ul.overview-points li::before {
 }
 
 .category-sidebar ul li a:hover {
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff;
 }
 
@@ -3478,7 +3478,7 @@ ul.overview-points li::before {
 
 .quote-sidebar {
     margin-top: 60px;
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff;
     padding: 55px 40px 40px 40px;
 }
@@ -3498,7 +3498,7 @@ ul.overview-points li::before {
     width: 140px;
     text-transform: uppercase;
     color: #fff;
-    background-color: #12372A;
+    background-color: #D36135;
     border: none;
     cursor: pointer;
 }
@@ -3543,14 +3543,14 @@ ul.overview-points li::before {
 
 .blog-lists .single-blog .blog-txt h3.blog-title a {
     text-decoration: none;
-    color: #12372A;
+    color: #D36135;
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
 }
 
 .blog-lists .single-blog .blog-txt h3.blog-title a:hover {
-    color: #12372A;
+    color: #D36135;
 }
 
 .blog-lists .single-blog .blog-txt p.blog-summary {
@@ -3586,8 +3586,8 @@ ul.overview-points li::before {
 }
 
 .pagination-nav li.page-item.active a {
-    background-color: #12372A;
-    border: 2px solid #12372A;
+    background-color: #D36135;
+    border: 2px solid #D36135;
 }
 
 .blog-sidebar-widgets {
@@ -3626,7 +3626,7 @@ ul.overview-points li::before {
     float: left;
     padding: 0;
     height: 50px;
-    background-color: #12372A;
+    background-color: #D36135;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -3638,7 +3638,7 @@ ul.overview-points li::before {
 .searchbar button[type="submit"]:hover,
 .searchbar input[type="submit"]:hover {
     background-color: #fff;
-    color: #12372A;
+    color: #D36135;
 }
 
 .popular-posts-lists h4,
@@ -3646,7 +3646,7 @@ ul.overview-points li::before {
     margin-bottom: 26px;
     font-size: 20px;
     font-weight: 700;
-    color: #12372A;
+    color: #D36135;
     text-transform: uppercase;
 }
 
@@ -3686,7 +3686,7 @@ ul.overview-points li::before {
 }
 
 .popular-post-txt h5 a {
-    color: #12372A;
+    color: #D36135;
     text-decoration: none;
     -webkit-transition: .5s;
     -o-transition: .5s;
@@ -3694,7 +3694,7 @@ ul.overview-points li::before {
 }
 
 .popular-post-txt h5 a:hover {
-    color: #12372A;
+    color: #D36135;
 }
 
 .popular-post-txt small {
@@ -3722,7 +3722,7 @@ ul.overview-points li::before {
     position: relative;
     display: inline-block;
     font-size: 16px;
-    color: #12372A;
+    color: #D36135;
     text-decoration: none;
     padding-left: 10px;
     -webkit-transition: .5s;
@@ -3731,7 +3731,7 @@ ul.overview-points li::before {
 }
 
 .category-lists ul li a:hover {
-    color: #12372A;
+    color: #D36135;
 }
 
 .category-lists ul li a::after {
@@ -3741,7 +3741,7 @@ ul.overview-points li::before {
     left: 0;
     font-family: 'Font Awesome 5 Free';
     font-weight: 700;
-    color: #12372A;
+    color: #D36135;
 }
 
 .subscribe-section {
@@ -3755,7 +3755,7 @@ ul.overview-points li::before {
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 8px;
-    color: #12372A;
+    color: #D36135;
     text-transform: uppercase;
 }
 
@@ -3773,7 +3773,7 @@ ul.overview-points li::before {
     left: 0;
     width: 100px;
     height: 3px;
-    background-color: #12372A;
+    background-color: #D36135;
 }
 
 .subscribe-section .form-element:last-child {
@@ -3844,7 +3844,7 @@ ul.overview-points li::before {
     font-size: 30px;
     font-weight: 600;
     margin: 16px 0px 25px;
-    color: #12372A;
+    color: #D36135;
 }
 
 .blog-details-body p {
@@ -3853,13 +3853,13 @@ ul.overview-points li::before {
 
 .blog-details-quote {
     padding: 42px 39px;
-    border-left: 3px solid #12372A;
+    border-left: 3px solid #D36135;
     font-style: italic;
     line-height: 30px;
     font-size: 18px;
     margin: 41px 0px 42px;
     background-color: #f7fafd;
-    color: #12372A;
+    color: #D36135;
 }
 
 .blog-share {
@@ -3932,13 +3932,13 @@ ul.overview-points li::before {
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 20px;
-    color: #12372A;
+    color: #D36135;
 }
 
 .comment-lists h3 {
     font-size: 24px;
     font-weight: 700;
-    color: #12372A;
+    color: #D36135;
     display: block;
     position: relative;
     margin-bottom: 51px;
@@ -3952,7 +3952,7 @@ ul.overview-points li::before {
     left: 0;
     height: 3px;
     width: 70px;
-    background-color: #12372A;
+    background-color: #D36135;
 }
 
 .single-comment {
@@ -3980,7 +3980,7 @@ ul.overview-points li::before {
 .single-comment .person-name h5 {
     font-size: 18px;
     font-weight: 600;
-    color: #12372A;
+    color: #D36135;
 }
 
 .single-comment .person-info .date {
@@ -4001,7 +4001,7 @@ ul.overview-points li::before {
 .single-comment .person-info .date a {
     font-weight: 600;
     font-style: italic;
-    color: #12372A;
+    color: #D36135;
     margin-top: -5px;
     -webkit-transition: .5s;
     -o-transition: .5s;
@@ -4010,7 +4010,7 @@ ul.overview-points li::before {
 }
 
 .single-comment .person-info .date a:hover {
-    color: #12372A;
+    color: #D36135;
 }
 
 .single-comment .person-info .comment {
@@ -4030,7 +4030,7 @@ ul.overview-points li::before {
     margin-bottom: 52px;
     font-size: 24px;
     font-weight: 700;
-    color: #12372A;
+    color: #D36135;
     text-transform: uppercase;
 }
 
@@ -4041,7 +4041,7 @@ ul.overview-points li::before {
     left: 0;
     height: 3px;
     width: 70px;
-    background-color: #12372A;
+    background-color: #D36135;
 }
 
 .reply-form-section .form-element input,
@@ -4064,7 +4064,7 @@ ul.overview-points li::before {
 
 .single-pic img {
     width: 100%;
-    border: 5px solid #12372A;
+    border: 5px solid #D36135;
     border-radius: 8px;
 }
 
@@ -4283,7 +4283,7 @@ ul.overview-points li::before {
 }
 
 .quote-page h2.subtitle {
-    color: #12372A;
+    color: #D36135;
 }
 
 .quote-page form .form-element input,
@@ -4316,7 +4316,7 @@ ul.overview-points li::before {
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff;
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
@@ -4324,7 +4324,7 @@ ul.overview-points li::before {
 
 .quote-page .contact-infos .single-info .icon-wrapper i {
     font-size: 20px;
-    color: #12372A;
+    color: #D36135;
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
@@ -4339,7 +4339,7 @@ ul.overview-points li::before {
 }
 
 .quote-page .contact-infos .single-info .icon-wrapper {
-    border: 1px solid #12372A;
+    border: 1px solid #D36135;
     height: 50px;
     width: 50px;
     margin-right: 15px;
@@ -4385,7 +4385,7 @@ ul.overview-points li::before {
 }
 
 .contact-section .single-info .icon-wrapper {
-    border: 1px solid #12372A;
+    border: 1px solid #D36135;
     height: 50px;
     width: 50px;
     line-height: 50px;
@@ -4405,14 +4405,14 @@ ul.overview-points li::before {
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
-    background-color: #12372A;
+    background-color: #D36135;
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
 }
 
 .contact-section .single-info .icon-wrapper i {
     font-size: 20px;
-    color: #12372A;
+    color: #D36135;
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
@@ -4504,7 +4504,7 @@ div#map {
     position: relative;
     float: left;
     overflow: hidden;
-    background-color: #12372A;
+    background-color: #D36135;
     border-radius: 8px;
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -4519,11 +4519,11 @@ div#map {
     -webkit-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     transform: translateY(-20px);
-    background-color: #12372A;
+    background-color: #D36135;
 }
 
 .pricing-tables .plan:hover a {
-    background-color: #12372A;
+    background-color: #D36135;
 }
 
 .pricing-tables header {
@@ -4594,7 +4594,7 @@ div#map {
 }
 
 .pricing-tables .plan-select a {
-    background-color: #12372A;
+    background-color: #D36135;
     color: #ffffff;
     text-decoration: none;
     padding: 12px 20px;
@@ -4610,7 +4610,7 @@ div#map {
 }
 
 .pricing-tables .plan-select a:hover {
-    background-color: #12372A;
+    background-color: #D36135;
 }
 
 
@@ -4645,7 +4645,7 @@ div#map {
     text-transform: uppercase;
     font-size: 32px;
     margin: 21px 0px 14px;
-    color: #12372A;
+    color: #D36135;
 }
 
 .error-txt p {
@@ -4666,15 +4666,15 @@ div#map {
     font-size: 16px;
     text-decoration: none;
     margin-top: 15px;
-    background-color: #12372A;
-    border: 1px solid #12372A;
+    background-color: #D36135;
+    border: 1px solid #D36135;
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
 }
 
 .error-txt a:hover {
-    color: #12372A;
+    color: #D36135;
     background-color: #fff;
 }
 
@@ -4769,10 +4769,10 @@ div#map {
     height: 40px;
     width: 40px;
     line-height: 43px;
-    background-color: #12372A;
+    background-color: #D36135;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #12372A;
+    border: 1px solid #D36135;
     visibility: hidden;
     opacity: 0;
     -webkit-transform: translateX(-50px) rotate(-180deg);
@@ -4800,7 +4800,7 @@ div#map {
 }
 
 .single-product .thumb-overlay .circle:hover i {
-    color: #12372A;
+    color: #D36135;
 }
 
 .single-product .content {
@@ -4814,7 +4814,7 @@ div#map {
 }
 
 .single-product .content h4.title a {
-    color: #12372A;
+    color: #D36135;
     font-weight: 600;
     text-decoration: none;
     -webkit-transition: .5s;
@@ -4822,7 +4822,7 @@ div#map {
 }
 
 .single-product .content h4.title a:hover {
-    color: #12372A;
+    color: #D36135;
 }
 
 .single-product {
@@ -4841,14 +4841,14 @@ div#map {
 }
 
 .single-product .price span {
-    color: #12372A;
+    color: #D36135;
     margin-right: 5px;
 }
 
 .single-product button.addtocart {
-    border: 1px solid #12372A;
+    border: 1px solid #D36135;
     padding: 8px 0px;
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -4860,7 +4860,7 @@ div#map {
 
 .single-product button.addtocart:hover {
     background-color: #fff;
-    color: #12372A;
+    color: #D36135;
 }
 
 .price-range-block .ui-slider-horizontal {
@@ -4871,7 +4871,7 @@ div#map {
     width: 1.2em;
     height: 1.2em;
     border-radius: 50%;
-    background-color: #12372A;
+    background-color: #D36135;
     border: 4px solid #fff;
     -webkit-box-shadow: 0px 0px 5px #000;
     box-shadow: 0px 0px 5px #000;
@@ -4882,7 +4882,7 @@ div#map {
 }
 
 .price-range-block .ui-widget-header {
-    background: #12372A;
+    background: #D36135;
 }
 
 .price-range-block .ui-widget-content {
@@ -4916,7 +4916,7 @@ div#map {
 }
 
 .filter .filter-header {
-    background-color: #12372A;
+    background-color: #D36135;
     padding: 10px 20px 5px;
 }
 
@@ -4935,7 +4935,7 @@ div#map {
 .filter .applybtn {
     display: block;
     border: none;
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff;
     border-radius: 50px;
     padding: 5px 30px;
@@ -4952,14 +4952,14 @@ div#map {
 }
 
 .filter.category ul li a {
-    color: #12372A;
+    color: #D36135;
     text-decoration: none;
     -webkit-transition: .3s;
     transition: .3s;
 }
 
 .filter.category ul li a:hover {
-    color: #12372A;
+    color: #D36135;
 }
 
 .filter.category ul li {
@@ -4972,7 +4972,7 @@ div#map {
     content: "\f101";
     font-family: "Font Awesome 5 Free";
     font-weight: 600;
-    color: #12372A;
+    color: #D36135;
     left: 0px;
     top: -1px;
 }
@@ -5013,7 +5013,7 @@ div#map {
 }
 
 .filter .container input:checked ~ .checkmark {
-    background-color: #12372A;
+    background-color: #D36135;
 }
 
 .filter .checkmark:after {
@@ -5113,7 +5113,7 @@ div#map {
 
 .quickview-slider .owl-thumb-item.active {
     opacity: 1;
-    border: 1px solid #12372A;
+    border: 1px solid #D36135;
 }
 
 .quickview-slider .owl-thumb-item.active img {
@@ -5129,7 +5129,7 @@ div#map {
 
 .quickview-slider.owl-carousel .owl-nav button.owl-next,
 .quickview-slider.owl-carousel .owl-nav button.owl-prev {
-    background: #12372A;
+    background: #D36135;
     color: #fff;
     border: none;
     font-size: 12px;
@@ -5252,8 +5252,8 @@ div#map {
     display: block;
     width: 100%;
     color: #fff;
-    background: #12372A;
-    border: 1px solid #12372A;
+    background: #D36135;
+    border: 1px solid #D36135;
     padding: 8px 0px;
     text-transform: uppercase;
     font-weight: 600;
@@ -5316,7 +5316,7 @@ div#map {
     font-size: 22px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #12372A;
+    color: #D36135;
 }
 
 .product-details .content .rate {
@@ -5331,11 +5331,11 @@ div#map {
 .product-details .price span {
     display: inline-block;
     margin-right: 5px;
-    color: #12372A;
+    color: #D36135;
 }
 
 .product-details-form h6.label {
-    color: #12372A;
+    color: #D36135;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 16px;
@@ -5344,7 +5344,7 @@ div#map {
 .product-details .social-share h4 {
     font-size: 18px;
     font-weight: 600;
-    color: #12372A;
+    color: #D36135;
     text-transform: uppercase;
 }
 
@@ -5363,7 +5363,7 @@ div#map {
     margin: 0;
     text-transform: uppercase;
     font-weight: 600;
-    color: #12372A;
+    color: #D36135;
 }
 
 .topbar-filters .sort {
@@ -5416,11 +5416,11 @@ div#map {
 
 .product-thumb-slider.owl-carousel .owl-nav button.owl-next,
 .product-thumb-slider.owl-carousel .owl-nav button.owl-prev {
-    background: #12372A;
+    background: #D36135;
     height: 30px;
     width: 30px;
     color: #fff;
-    border: 1px solid #12372A;
+    border: 1px solid #D36135;
     text-align: center;
     line-height: 30px;
     position: absolute;
@@ -5440,7 +5440,7 @@ div#map {
 
 .product-thumb-slider.owl-carousel .owl-nav button.owl-next:hover {
     background-color: #fff;
-    color: #12372A;
+    color: #D36135;
 }
 
 .product-thumb-slider.owl-carousel:hover .owl-nav button.owl-next {
@@ -5462,7 +5462,7 @@ div#map {
 
 .product-thumb-slider.owl-carousel .owl-nav button.owl-prev:hover {
     background-color: #fff;
-    color: #12372A;
+    color: #D36135;
 }
 
 .product-thumb-slider.owl-carousel:hover .owl-nav button.owl-prev {
@@ -5484,7 +5484,7 @@ div#map {
     display: block;
     width: 100%;
     border: none;
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
@@ -5499,7 +5499,7 @@ div#map {
 
 .actions .wishlist,
 .actions .compare {
-    background-color: #12372A;
+    background-color: #D36135;
     color: #fff;
 }
 
@@ -5559,7 +5559,7 @@ div#map {
 
 .review-form h2 {
     text-align: center;
-    color: #12372A;
+    color: #D36135;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0px;
@@ -5567,13 +5567,13 @@ div#map {
 }
 
 .review-form button[type="submit"] {
-    border: 1px solid #12372A;
+    border: 1px solid #D36135;
 }
 
 .review-form .counter {
     text-align: center;
     font-weight: 600;
-    color: #12372A;
+    color: #D36135;
     margin-bottom: 20px;
 }
 
@@ -5582,11 +5582,11 @@ div#map {
 }
 
 .specifications th[scope="row"] {
-    color: #12372A;
+    color: #D36135;
 }
 
 .product-details .nav-tabs .nav-link {
-    color: #12372A;
+    color: #D36135;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 600;
@@ -5595,8 +5595,8 @@ div#map {
 
 .product-details .nav-tabs .nav-item.show .nav-link,
 .product-details .nav-tabs .nav-link.active {
-    border-bottom: 4px solid #12372A;
-    color: #12372A;
+    border-bottom: 4px solid #D36135;
+    color: #D36135;
 }
 
 .vendor-info {
@@ -5607,7 +5607,7 @@ div#map {
 }
 
 .vendor-info span {
-    color: #12372A;
+    color: #D36135;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
@@ -5616,13 +5616,13 @@ div#map {
 .vendor-info h5 {
     font-size: 20px;
     font-weight: 600;
-    color: #12372A;
+    color: #D36135;
     margin-bottom: 10px;
 }
 
 .vendor-info h3 {
     font-size: 24px;
-    color: #12372A;
+    color: #D36135;
     font-weight: 600;
     margin-bottom: 9px
 }
@@ -5631,8 +5631,8 @@ div#map {
     font-size: 14px;
     font-weight: 600;
     padding: 3px 25px;
-    background: #12372A;
-    border: 1px solid #12372A;
+    background: #D36135;
+    border: 1px solid #D36135;
     color: #fff;
     text-decoration: none;
     border-radius: 50px;
@@ -5644,7 +5644,7 @@ div#map {
 
 .vendor-info a.visitbtn:hover {
     background: #fff;
-    color: #12372A;
+    color: #D36135;
 }
 
 .product-details .tab-content {
@@ -5685,7 +5685,7 @@ div#map {
 
 .cart-table th {
     text-transform: uppercase;
-    color: #12372A;
+    color: #D36135;
 }
 
 .cart-table td,
@@ -5703,7 +5703,7 @@ div#map {
 }
 
 .cart-table a.title {
-    color: #12372A;
+    color: #D36135;
     text-decoration: none;
     font-weight: 600;
     -webkit-transition: .3s;
@@ -5711,7 +5711,7 @@ div#map {
 }
 
 .cart-table a.title:hover {
-    color: #12372A;
+    color: #D36135;
 }
 
 .cart-table input.quantity {
@@ -5726,26 +5726,26 @@ div#map {
 }
 
 .cart-table .price span {
-    color: #12372A;
+    color: #D36135;
     display: inline-block;
     margin-left: 5px;
 }
 
 .cart-table td.total {
     font-weight: 600;
-    color: #12372A;
+    color: #D36135;
 }
 
 .cart-table td.action a {
-    color: #12372A;
+    color: #D36135;
 }
 
 a.cartbtn,
 button.cartbtn {
     border: none;
     text-transform: uppercase;
-    background-color: #12372A;
-    border: 1px solid #12372A;
+    background-color: #D36135;
+    border: 1px solid #D36135;
     color: #fff;
     display: inline-block;
     font-size: 16px;
@@ -5760,18 +5760,18 @@ button.cartbtn {
 
 .cartbtn:hover {
     background-color: #ffffff;
-    border: 1px solid #12372A;
-    color: #12372A;
+    border: 1px solid #D36135;
+    color: #D36135;
 }
 
 a.cartbtn.shop {
-    background-color: #12372A;
-    border: 1px solid #12372A;
+    background-color: #D36135;
+    border: 1px solid #D36135;
 }
 
 a.cartbtn.shop:hover {
     background-color: #ffffff;
-    color: #12372A;
+    color: #D36135;
 }
 
 .cartbtn-container {
@@ -5807,7 +5807,7 @@ a.cartbtn.shop:hover {
 
 .coupon-input button {
     border: none;
-    background-color: #12372A;
+    background-color: #D36135;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
@@ -5817,7 +5817,7 @@ a.cartbtn.shop:hover {
 }
 
 .cart-cards .card-header {
-    background: #12372A;
+    background: #D36135;
 }
 
 .cart-cards .card-header h5 {
@@ -5829,7 +5829,7 @@ a.cartbtn.shop:hover {
 
 .cart-cards .form-element label {
     font-weight: 600;
-    color: #12372A;
+    color: #D36135;
     text-transform: uppercase;
     font-size: 16px;
     margin: 0px;
@@ -5871,13 +5871,13 @@ a.cartbtn.shop:hover {
 
 .calculations .single-calc.total span {
     font-weight: 600;
-    color: #12372A;
+    color: #D36135;
     font-size: 20px;
 }
 
 .calculations .single-calc strong {
     font-weight: 600;
-    color: #12372A;
+    color: #D36135;
 }
 
 /*---------------------------
@@ -5906,7 +5906,7 @@ a.cartbtn.shop:hover {
 
 .checkout .form-element button {
     padding: 11px 45px;
-    border: 1px solid #12372A;
+    border: 1px solid #D36135;
     display: block;
     width: 100%;
 }
@@ -5916,7 +5916,7 @@ a.cartbtn.shop:hover {
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #12372A;
+    color: #D36135;
     margin-top: 50px;
     border-bottom: 1px solid #f1f1f1;
     padding-bottom: 20px;
@@ -5925,7 +5925,7 @@ a.cartbtn.shop:hover {
 
 .billing-address label,
 .shipping-address label {
-    color: #12372A;
+    color: #D36135;
     font-weight: 600;
     font-size: 16px;
 }
