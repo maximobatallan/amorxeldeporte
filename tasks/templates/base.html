@@ -153,15 +153,7 @@
                                     <li><a href="#">¿Como Comprar?</i></a></li>
                                     <li><a href=#>Pedir Presupuesto</i></a></li>
                                     <li>
-                                       {% if not user.is_authenticated %}
-                                          <li><a href="{% url 'signup' %}">Registrarse</i></a></li>
-                                          
-                                          <li><a href="{% url 'signin' %}">Iniciar Sesión</i></a></li>
-                                       {% endif %}
-                                       
-                                       {% if user.is_authenticated %}
-                                          <li><a href="{% url 'logout' %}">Cerrar Sesión</i></a></li>
-                                       {% endif %}
+                                      
                                     </li>
                                  </ul>
                               </nav>

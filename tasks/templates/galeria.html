@@ -1,0 +1,58 @@
+
+<!--    Gallery section start   -->
+
+<div class="gallery-section blog-grid">
+    <div class="container">
+ 
+       {% for key, value_list in categorias_productos.items %}
+ 
+       <h2 class="subtitle">{{ key }}</h2>
+ 
+       <div class="row">
+          {% for value in value_list %}
+          {% for producto in productos %}
+          {% if producto.id == value %}
+          <div class="col-lg-4 col-md-6">
+             <div class="single-pic wow fadeInRight" data-wow-duration="1.5s">
+                <a href="{% url 'PD' value %}">
+                   <img src="https://imgec.s3.sa-east-1.amazonaws.com/{{ producto.imagen }}" alt="{{ producto.nombre }}"
+                      width="20">
+                </a>
+ 
+                <div class="single-pic-overlay"></div>
+                <div class="txt-icon">
+                   <div class="outer">
+                      <a style="position: absolute; top: 50%; right: 50%; transform: translate(50%, -50%);">
+                         <h4>{{ producto.nombre }}</h4>
+                      </a>
+                      <a style="position: absolute; top: 50%; right: 50%; transform: translate(50%, 90%);"
+                         class="icon-wrapper" href="{% url 'PD' value %}" data-title="{{ producto.nombre }}">
+                         <i class="fas fa-heart"></i>
+                      </a>
+ 
+                      <a href="{% url 'PD' value %}" class="cartbtn" , style="position: absolute; top: 0; right: 0;">
+                         <span> ${{ producto.precio }}</span>
+                      </a>
+ 
+                   </div>
+                   <br>
+                   <div style="text-align: center;">
+                      <a href="{% url 'Add' value %}" id="comprar" class="cartbtn"><span><i
+                               class="fa fa-shopping-cart"></i> Agregar al Carrito</span></a>
+                   </div>
+ 
+ 
+                </div>
+             </div>
+ 
+             <br><br><br><br>
+          </div>{% endif %}
+          {% endfor %}
+          {% endfor %}
+       </div>
+       {% endfor %}
+    </div>
+ </div>
+ 
+ 
+ <!-- End Gallery -->
