@@ -19,8 +19,7 @@
 
       <!-- No need to change anything here -->
       <meta property="og:type" content="website" />
-      <meta property="og:image:type" content="image/png">
-      
+      <meta property="og:image:type" content="image/jpeg">
 
       <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
       <meta property="og:image:width" content="300">
@@ -56,6 +55,7 @@
       <!-- jquery js -->
       <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
       
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-YFV2HQ14XJ"></script>
@@ -66,7 +66,6 @@
       
         gtag('config', 'G-YFV2HQ14XJ');
        </script>
-
 
       <!-- Meta Pixel Code -->
       <script>
@@ -85,8 +84,6 @@
       src="https://www.facebook.com/tr?id=958225445972209&ev=PageView&noscript=1"
       /></noscript>
       <!-- End Meta Pixel Code -->
-
-      
       
    </head>
 
@@ -98,13 +95,13 @@
                <div class="container">
                   <div class="row">
                      <div class="col-lg-4 col-8">
-                        <ul class="social-links">
+                       <!-- <ul class="social-links">
                            <li><a href="https://www.instagram.com/amorxeldeporteok/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                            <li><a href="https://www.tiktok.com/@amor.x.el.deporte" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
                     
                            <li><a href="https://www.facebook.com/profile.php?id=61559023469477" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                            <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                        </ul>
+                        </ul> -->
                            
                      </div>
                      <div class="col-lg-8 col-4">
@@ -166,21 +163,13 @@
                                  <ul>
                                    
                                     <li>
-                                       <a href="{% url 'home' %}">Galleria</a>
+                                       <a href="#">Inicio</a>
                                     </li>
-                                    <li class="dropdown">
-                                       <a href="#">Categoria</a>
-                                       <ul>
-                                         
-                                          {% for cate in cat %}
-                                        
-
-                                          <li><a href="{% url 'catproducto' cate.cat %}">{{ cate.cat }}</a></li>
-                                          {% endfor %}
-                                       </ul>
+                                    <li>
+                                       <a href="#mockup">Diseños</a>
                                     </li>
-                                    <li><a href="#">¿Como Comprar?</i></a></li>
-                                    <li><a href=#>Pedir Presupuesto</i></a></li>
+                                    <li><a href="#qa">¿Como Comprar?</i></a></li>
+                                    <li><a href="#formulario">Pedir Presupuesto</i></a></li>
                                     <li>
                                       
                                     </li>
