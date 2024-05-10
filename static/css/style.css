@@ -951,7 +951,7 @@ h2.subtitle::after {
 }
 
 .navbar-area nav ul li a {
-    color: #232925;
+    color: #fff;
     text-transform: uppercase;
     padding: 0px;
     font-weight: 600;
@@ -964,7 +964,7 @@ h2.subtitle::after {
 }
 
 .navbar-area nav ul li:hover a {
-    color: #000000;
+    color: #232925;
 }
 
 .navbar-area nav ul li.dropdown {
